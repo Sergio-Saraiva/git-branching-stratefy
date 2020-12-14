@@ -14,6 +14,8 @@ class SessionController {
       return res.send('Usuário não existe');
     }
 
+    // Adiciona o hotfix
+
     return res.send('Ok');
   }
 }
